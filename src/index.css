@@ -1,5 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  text-size-adjust: 100%;
+}
+
+::placeholder {
+  color: #6a737d;
+}
+
 body {
-  margin: 0;
+  width: 100%;
   padding: 0;
-  font-family: sans-serif;
+  margin: 0;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+  color: #24292e;
+  background-color: #fafbfc;
+}
+
+#root, .App {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.4;
+  color: #24292e;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+details summary {
+  cursor: pointer;
 }
