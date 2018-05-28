@@ -6,6 +6,7 @@ import RepoNav from '../RepoNav/RepoNav';
 import ProfileHeader from '../ProfileHeader/ProfileHeader';
 import ProfileBio from '../ProfileBio/ProfileBio';
 import Following from '../Following/Following';
+import Footer from '../Footer/Footer';
 
 class App extends Component {
   render() {
@@ -16,6 +17,8 @@ class App extends Component {
         <ProfileHeader />
         <ProfileBio />
         <Following />
+
+        <Footer />
       </div>
     );
   }

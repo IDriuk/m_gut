@@ -22,6 +22,10 @@
   align-items: center !important;
 }
 
+.container {
+  margin: 0 15px;
+}
+
 .right-0 {
   right: 0 !important;
 }

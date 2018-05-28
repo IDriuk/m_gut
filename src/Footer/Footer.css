@@ -1,0 +1,27 @@
+footer .octicon {
+  float: left;
+  color: #a3aab1;
+}
+
+footer ul {
+  float: right;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer li {
+  float: left;
+  line-height: 32px;
+  color: #959da5;
+  list-style-type: none;
+}
+
+footer form {
+  display: inline;
+}
+
+footer .switch-to-desktop {
+  display: inline;
+  color: inherit;
+}
