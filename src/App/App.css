@@ -48,12 +48,20 @@
   padding-left: 16px !important;
 }
 
+.pb-3 {
+  padding-bottom: 16px !important;
+}
+
 .mt-1 {
   margin-top: 4px !important;
 }
 
 .mt-2 {
   margin-top: 8px !important;
+}
+
+.mt-3 {
+  margin-top: 16px !important;
 }
 
 .f4 {
@@ -68,12 +76,36 @@
   line-height: 1.5 !important;
 }
 
+.text-normal {
+    font-weight: 400 !important;
+}
+
 .text-white {
   color: #fff !important;
 }
 
 .text-gray {
   color: #586069 !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.border {
+  border: 1px #e1e4e8 solid !important;
+}
+
+.border-top {
+  border-top: 1px #e1e4e8 solid !important;
+}
+
+.border-gray-dark {
+  border-color: #d1d5da !important;
+}
+
+.rounded-1 {
+  border-radius: 3px !important;
 }
 
 .octicon {
