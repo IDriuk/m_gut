@@ -66,6 +66,14 @@
   fill: currentColor;
 }
 
+.avatar {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 3px;
+}
+
 .Counter {
   display: inline-block;
   padding: 2px 5px;

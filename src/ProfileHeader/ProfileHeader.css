@@ -1,0 +1,51 @@
+.profile-header {
+  position: relative;
+  min-height: 140px;
+  padding: 15px 15px 10px 140px;
+  overflow: visible;
+  line-height: 1.5;
+}
+
+.profile-header .avatar {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  margin-right: 15px;
+  border-radius: 3px;
+}
+
+.profile-header h1 {
+  margin: 0;
+  font-size: 16px;
+  color: #24292e;
+}
+
+.profile-header h3 {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #586069;
+}
+
+.details {
+  padding: 0;
+  margin: 7.5px 0 0;
+}
+
+.details-item {
+  font-size: 13px;
+  line-height: 24px;
+  list-style: none;
+}
+
+.details li {
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.details-item .octicon {
+  width: 16px;
+  color: #586069;
+  text-align: center;
+}
