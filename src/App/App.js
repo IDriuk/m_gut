@@ -4,6 +4,7 @@ import './App.css';
 import Header from '../Header/Header';
 import RepoNav from '../RepoNav/RepoNav';
 import ProfileHeader from '../ProfileHeader/ProfileHeader';
+import ProfileBio from '../ProfileBio/ProfileBio';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <Header />
         <RepoNav />
         <ProfileHeader />
+        <ProfileBio />
       </div>
     );
   }

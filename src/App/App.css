@@ -48,8 +48,16 @@
   margin-top: 4px !important;
 }
 
+.mt-2 {
+  margin-top: 8px !important;
+}
+
 .f4 {
   font-size: 16px !important;
+}
+
+.f6 {
+  font-size: 12px !important;
 }
 
 .lh-default {
@@ -58,6 +66,10 @@
 
 .text-white {
   color: #fff !important;
+}
+
+.text-gray {
+  color: #586069 !important;
 }
 
 .octicon {
