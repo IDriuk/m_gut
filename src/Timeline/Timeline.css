@@ -1,0 +1,13 @@
+.profile-timeline-wrapper {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  word-break: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+  background-color: #fff;
+}
+
+.profile-rollup-toggle-open {
+  display: inline-block;
+}
