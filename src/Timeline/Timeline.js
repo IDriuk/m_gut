@@ -13,7 +13,7 @@ class Timeline extends Component {
                 Jump to
                 &nbsp;
                 <svg className="octicon octicon-triangle-down pt-1" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true">
-                  <path fill-rule="evenodd" d="M0 5l6 6 6-6H0z"></path>
+                  <path fillRule="evenodd" d="M0 5l6 6 6-6H0z"></path>
                 </svg>
               </span>
             </button>
