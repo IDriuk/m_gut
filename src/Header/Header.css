@@ -10,3 +10,66 @@
   color: rgba(255,255,255,0.75);
   vertical-align: text-bottom;
 }
+
+.header-search {
+  width: 300px;
+  font-size: 13px;
+}
+
+.page-responsive .header-search {
+  width: auto;
+}
+
+.header-search-wrapper {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  min-height: 0;
+  padding: 0;
+  font-weight: 400;
+  vertical-align: middle;
+}
+
+.Header .header-search-wrapper {
+  min-height: 30px;
+  font-size: inherit;
+  color: #fff;
+  background-color: rgba(255,255,255,0.125);
+  border: 0;
+  box-shadow: none;
+}
+
+.header-search-input {
+  display: table-cell;
+  width: 100%;
+  min-height: 26px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background: none;
+  border: 0;
+  box-shadow: none;
+}
+
+.Header .header-search-input {
+  min-height: 30px;
+  font-size: 16px;
+  color: inherit;
+}
+
+.Header .header-search-input::placeholder {
+  color: rgba(255,255,255,0.75);
+}
+
+.HeaderNavlink {
+  display: block;
+  color: rgba(255,255,255,0.75);
+}
+
+.page-responsive .HeaderNavlink {
+  border-top: 1px solid #444d56;
+}
+
+.HeaderNavlink:hover, .HeaderNavlink:focus {
+  color: #fff;
+  text-decoration: none;
+}
