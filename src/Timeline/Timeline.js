@@ -2,14 +2,24 @@ import React, { Component } from 'react';
 import './Timeline.css';
 
 class Timeline extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {rollupOpen: false};
+  }
+
   render() {
+    const { rollupOpen } = this.state;
     return (
       <div className="profile-timeline-wrapper px-3 pt-3 ">
 
         <div className="my-4">
           <h2 className="d-inline-block f4 text-normal my-1">Contribution activity</h2>
-          <span className="Details mb-4 profile-rollup-toggle">
-            <button className="btn-link float-right mb-2 py-2 text-gray">
+          <span className={`Details mb-4 profile-rollup-toggle ${rollupOpen ? "open" : ""}`}>
+            <button
+              className="btn-link float-right mb-2 py-2 text-gray"
+              onClick={() => this.setState({rollupOpen: !rollupOpen})}
+            >
               <span className="profile-rollup-toggle-open">
                 Jump to
                 &nbsp;
@@ -18,6 +28,15 @@ class Timeline extends Component {
                 </svg>
               </span>
             </button>
+            <ul className="profile-rollup-content list border rounded-1 mt-2 p-3">
+              {["First repository", "Joined GitHub"].map(item =>
+              <li
+                key={item}
+                className="p-2"
+              >
+                <a>{item}</a>
+              </li>)}
+            </ul>
           </span>
         </div>
 

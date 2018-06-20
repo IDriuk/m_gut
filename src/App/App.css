@@ -55,6 +55,14 @@
   padding: 0 !important;
 }
 
+.p-2 {
+  padding: 8px !important;
+}
+
+.p-3 {
+  padding: 16px !important;
+}
+
 .px-3 {
   padding-right: 16px !important;
   padding-left: 16px !important;
@@ -321,4 +329,11 @@
 
 .list-style-none {
   list-style: none !important;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: #fff;
 }
