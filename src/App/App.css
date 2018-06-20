@@ -100,6 +100,10 @@
   padding-right: 8px !important;
 }
 
+.pb-1 {
+  padding-bottom: 4px !important;
+}
+
 .pb-3 {
   padding-bottom: 16px !important;
 }
@@ -184,6 +188,10 @@
 
 .text-gray-light {
   color: #6a737d !important;
+}
+
+.text-gray-dark {
+  color: #24292e !important;
 }
 
 .text-bold {
@@ -309,6 +317,14 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   vertical-align: top;
+}
+
+.no-wrap {
+  white-space: nowrap !important;
+}
+
+.muted-link {
+  color: #586069 !important;
 }
 
 .form-control, .form-select {

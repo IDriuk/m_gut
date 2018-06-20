@@ -8,10 +8,6 @@
   background-color: #fff;
 }
 
-.profile-rollup-toggle-open {
-  display: inline-block;
-}
-
 .profile-timeline .profile-timeline-line::before {
   position: absolute;
   top: 0;
@@ -55,8 +51,24 @@
   border-radius: 50%;
 }
 
+.profile-rollup-content {
+  display: none;
+}
+
 .profile-rollup-toggle-open {
   display: inline-block;
+}
+
+.profile-rollup-toggle-closed {
+  display: none;
+}
+
+.open .profile-rollup-toggle-closed {
+  display: block;
+}
+
+.open .profile-rollup-toggle-open {
+  display: none;
 }
 
 .profile-rollup-toggle .css-truncate-target {
@@ -69,4 +81,32 @@
 
 .open .profile-rollup-content {
   display: block;
+}
+
+.open .btn-link .profile-rollup-toggle-closed {
+  display: inline-block;
+}
+
+.anim-grow-x {
+  width: 0%;
+  animation-name: grow-x;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  animation-delay: 0.5s;
+}
+
+.profile-timeline .progress-bar {
+  height: 10px;
+  border-radius: 2px;
+}
+
+.profile-rollup-wrapper .css-truncate-target {
+  max-width: 72%;
+}
+
+@keyframes grow-x {
+  100% {
+    width: 100%;
+  }
 }
